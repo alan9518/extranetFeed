@@ -1,0 +1,95 @@
+/* Tiny Carousel */
+#slider1 {
+    height: 1%;
+    margin: 30px 0 0;
+    overflow: hidden;
+    position: relative;
+/*    padding: 0 50px 10px;*/
+}
+
+#slider1 .viewport {
+    height: 266px;
+    overflow: hidden;
+    position: relative;
+}
+
+#slider1 .buttons {
+    background:#DCDCDC;
+    border-radius: 35px;
+    display: block;
+    position: absolute;
+    top: 35%;
+    left: 0;
+    width: 35px;
+    height: 35px;
+    color:#373737;
+    font-weight:700;
+    text-align: center;
+    line-height: 35px;
+    text-decoration: none;
+    font-size: 22px;
+	z-index: 999;
+	margin: 10px;
+}
+
+#slider1 .next {
+    right: 0;
+    left: auto;
+    top: 35%;
+}
+
+#slider1 .buttons:hover {
+    color: #4F4F4F;
+    background: #fff;
+}
+
+#slider1 .disable {
+    visibility: hidden;
+}
+
+#slider1 .overview {
+    list-style: none;
+    position: absolute;
+    padding: 0;
+    margin: 0;
+    width: 240px;
+    left: 0;
+    top: 0;
+	text-decoration: none;
+}
+
+#slider1 .overview li {
+    float: left;
+    margin: 0 20px 0 0;
+    padding: 1px;
+    height: 121px;
+/*    border: 1px solid #dcdcdc;*/
+    width: 360px;
+	text-decoration: none;
+ }
+
+#slider1 .overview li a {
+   text-decoration: none;
+ }
+
+#slider1 .overview li:hover {
+  opacity: .7;
+ }
+
+.headtxt{
+	font-family:ITCAvantGardeStd;
+	font-size: 22px;
+	color: #fff;
+	padding:6px 25px 6px 25px;
+	position: relative;
+	bottom:80px;
+	width: 300px;
+	line-height: 30px;
+	text-decoration: none;
+}
+
+
+@font-face {
+	font-family: ITCAvantGardeStd;
+src: url(../fonts/ITCAvantGardeStd-Md.otf);
+}
